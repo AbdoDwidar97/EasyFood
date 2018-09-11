@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EasyFoodV1.View.OrderFrm">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <Image x:Name="ImgFoodItem" VerticalOptions="Start" HorizontalOptions="FillAndExpand" WidthRequest="250" HeightRequest="150"/>
+            </StackLayout>
+
+            <Label x:Name="Lbl_Item_Desc" FontSize="Small" TextColor="Gray" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"></Label>
+
+            <Picker x:Name="ItemSizePicker" FontSize="Small" TextColor="Black" WidthRequest="150" HorizontalOptions="Center" VerticalOptions="Center"></Picker>
+
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Quantity" HorizontalTextAlignment="Center" FontSize="Small" HorizontalOptions="Start"></Label>
+                <Button x:Name="PtnDecrement" Text="-" FontSize="Small" HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" BackgroundColor="CornflowerBlue" TextColor="White"></Button>
+                <Label x:Name="LblQuantity" Text="0" FontSize="Small" TextColor="Black" HeightRequest="40" HorizontalTextAlignment="Center" WidthRequest="160" HorizontalOptions="Center"></Label>
+                <Button x:Name="PtnIncrement" Text="+" FontSize="Small" HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" BackgroundColor="CornflowerBlue" TextColor="White"></Button>
+            </StackLayout>
+
+            <Button x:Name="AddToBasket" Text="Add to basket" FontSize="Micro" BackgroundColor="Green" TextColor="White" HeightRequest="34" WidthRequest="240" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

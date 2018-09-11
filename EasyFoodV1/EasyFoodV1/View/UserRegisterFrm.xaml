@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Sign up"
+             x:Class="EasyFoodV1.View.UserRegisterFrm">
+    <ContentPage.Content>
+        <StackLayout Padding="14">
+
+            <StackLayout Padding="14">
+                <Image x:Name="ImgUserSignUp" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="45" HeightRequest="45"/>
+            </StackLayout>
+
+            <Entry x:Name="TxtFullName" Placeholder="Full name" VerticalOptions="Center" HorizontalOptions="Fill" FontSize="Micro"/>
+            <Entry x:Name="TxtUserName" Placeholder="User name" VerticalOptions="Center" HorizontalOptions="Fill" FontSize="Micro"/>
+            <Entry x:Name="TxtEmail" Placeholder="Email" VerticalOptions="Center" HorizontalOptions="Fill" FontSize="Micro"/>
+            <Entry x:Name="TxtPhone" Placeholder="Phone" VerticalOptions="Center" HorizontalOptions="Fill" FontSize="Micro"/>
+            <Entry x:Name="TxtPwd" Placeholder="Password" VerticalOptions="Center" HorizontalOptions="Fill" IsPassword="True" FontSize="Micro"/>
+            <Button x:Name="BtnUserSignUp" Text="Sign Up" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill" FontSize="Micro" BackgroundColor="DarkSeaGreen" HeightRequest="32" TextColor="White" Margin="10"/>
+            <Button x:Name="BtnBackToLogin" Text="Back" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" FontSize="Micro" BackgroundColor="White" HeightRequest="20" TextColor="Blue"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

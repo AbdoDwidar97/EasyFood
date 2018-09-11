@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Login"
+             x:Class="EasyFoodV1.View.LoginFrm">
+    <ContentPage.Content>
+        <StackLayout Padding="14">
+
+            <StackLayout Padding="14">
+                <Image x:Name="ImgLogin" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="60" HeightRequest="60"/>
+            </StackLayout>
+
+            <Entry x:Name="TxtUserName" Placeholder="User name" VerticalOptions="Center" HorizontalOptions="Fill" FontSize="Micro"/>
+            <Entry x:Name="TxtPwd" Placeholder="Password" VerticalOptions="Center" HorizontalOptions="Fill" IsPassword="True" FontSize="Micro"/>
+            <Button x:Name="BtnLogin" Text="Login" VerticalOptions="EndAndExpand" HorizontalOptions="Fill" FontSize="Micro" BackgroundColor="DarkSeaGreen" HeightRequest="35" TextColor="White"/>
+            <Button x:Name="BtnGoSignup" Text="Create new account" VerticalOptions="EndAndExpand" HorizontalOptions="Center" FontSize="Micro" BackgroundColor="White" HeightRequest="32" TextColor="Blue"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

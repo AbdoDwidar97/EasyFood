@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="con-Web.config Connection String" description="con Connection String used in web.config by the application to access the database." defaultValue="Data Source=SQL5002.site4now.net;Initial Catalog=DB_A403E1_AbdoDwidar97;User Id=DB_A403E1_AbdoDwidar97_admin;Password=aaaaa344006ddddd;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="I:\\Xamarin\\EasyFoodV1\\WebAPI_EasyFood\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='con']/@connectionString" />
+  </parameter>
+</parameters>

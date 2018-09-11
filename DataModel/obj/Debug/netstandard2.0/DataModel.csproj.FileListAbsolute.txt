@@ -1,0 +1,9 @@
+I:\Xamarin\EasyFoodV1\DataModel\bin\Debug\netstandard2.0\DataModel.deps.json
+I:\Xamarin\EasyFoodV1\DataModel\bin\Debug\netstandard2.0\DataModel.dll
+I:\Xamarin\EasyFoodV1\DataModel\bin\Debug\netstandard2.0\DataModel.pdb
+I:\Xamarin\EasyFoodV1\DataModel\obj\Debug\netstandard2.0\DataModel.csproj.CoreCompileInputs.cache
+I:\Xamarin\EasyFoodV1\DataModel\obj\Debug\netstandard2.0\DataModel.AssemblyInfoInputs.cache
+I:\Xamarin\EasyFoodV1\DataModel\obj\Debug\netstandard2.0\DataModel.AssemblyInfo.cs
+I:\Xamarin\EasyFoodV1\DataModel\obj\Debug\netstandard2.0\DataModel.dll
+I:\Xamarin\EasyFoodV1\DataModel\obj\Debug\netstandard2.0\DataModel.pdb
+I:\Xamarin\EasyFoodV1\DataModel\obj\Debug\netstandard2.0\DataModel.csprojAssemblyReference.cache

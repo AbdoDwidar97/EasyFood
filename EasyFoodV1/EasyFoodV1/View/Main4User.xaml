@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Clubs"
+             x:Class="EasyFoodV1.View.Main4User">
+    <ContentPage.Content>
+        <StackLayout Padding="14">
+
+            <Label Text="There are many clubs arround you ..." FontSize="Small"></Label>
+
+            <ListView x:Name="ClubsLst">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding ClubName}" TextColor="Red" Detail="{Binding ClubAddress}" DetailColor="Black" ImageSource="{Binding ClubImg}">
+                        </ImageCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
